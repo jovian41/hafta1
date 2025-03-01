@@ -1,4 +1,4 @@
 #!/bin/bash
 echo "Saldırılacak IP adresini gir veya domain ismi:"
 read hedef
-ping -c 4 $hedef
+/c/Windows/System32/ping.exe -n 4 $hedef
